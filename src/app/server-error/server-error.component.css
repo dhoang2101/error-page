@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:400,500,600&display=swap");
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.error {
+  font-family: "Signika Negative";
+  width: 100%;
+  height: 100vh;
+}
+
+.error .top-title {
+  padding-top: 17vh;
+  padding-bottom: 3vh;
+}
+
+.error .top-title p {
+  user-select: none;
+  text-align: center;
+  font-size: 8vw;
+  margin: 0;
+  font-weight: bold;
+  color: #404E67;
+}
+
+.error .middle-title p {
+  user-select: none;
+  text-align: center;
+  font-size: 1.2vw;
+  margin: 0;
+  color: #404E67;
+  font-weight: bold;
+}
+
+.error .middle-title p .icon {
+  color: red;
+  padding: 0 10px;
+
+}
+
+.error .bottom-title {
+  user-select: none;
+  padding-top: 3vh;
+}
+
+.error .bottom-title p {
+  text-align: center;
+  font-size: 1vw;
+  margin: 0;
+  color: #404E67;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.error .button {
+  width: 100%;
+  padding: 5vh 40vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.error .bottom-title .blink {
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.error .button .button-left {
+  width: 45%;
+  height: 35px;
+  text-align: center;
+  border: 2px solid #01B5B8;
+  background-color: #01B5B8;
+  padding: 0.3vw 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.error .button .button-left a {
+  font-size: 0.8vw;
+  user-select: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error .button .button-left a .icon {
+  font-size: 0.7vw;
+  user-select: none;
+  padding-right: 0.2vw;
+}
+
+.error .button .button-left:hover {
+  background-color: white;
+  border: 2px solid #01B5B8;
+}
+
+.error .button .button-left:hover a {
+  color: #01B5B8;
+}
+
+.error .button .button-right {
+  width: 45%;
+  height: 35px;
+  text-align: center;
+  border: 2px solid #FF7688;
+  background-color: #FF7688;
+  padding: 0.3vw 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.error .button .button-right a {
+  font-size: 0.8vw;
+  user-select: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error .button .button-right:hover {
+  background-color: white;
+  border: 2px solid #FF7688;
+}
+
+.error .button .button-right:hover a {
+  color: #FF7688;
+}
+
+.error .button .button-right a .icon {
+  font-size: 0.7vw;
+  user-select: none;
+  padding-right: 0.2vw;
+}
+
+.error .contact {
+  padding-top: 1vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding-bottom: 10vh;
+
+}
+
+.error .contact .facebook {
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  margin: 1vh 0.4vw;
+  width: 22px;
+  display: inline-block;
+  padding: 1vh 9px 1vh 8px;
+  border: 1px solid rgb(71, 94, 141);
+  border-radius: 3px;
+  color: #4E6AA2;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+.error .contact .facebook:hover {
+  color: white;
+  background-color: #4E6AA2;
+}
+
+.error .contact .twitter {
+  text-align: center;
+  margin: 1vh 0.4vw;
+  width: 22px;
+  display: inline-block;
+  padding: 1vh 9px 1vh 8px;
+  border: 1px solid #55ABEE;
+  border-radius: 3px;
+  color: #55ABEE;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.error .contact .twitter:hover {
+  color: white;
+  background-color: #55ABEE;
+}
+
+.error .contact .in {
+  text-align: center;
+  margin: 1vh 0.4vw;
+  width: 22px;
+  display: inline-block;
+  padding: 1vh 9px 1vh 8px;
+  border: 1px solid #6EAFD2;
+  border-radius: 3px;
+  color: #6EAFD2;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.error .contact .in:hover {
+  color: white;
+  background-color: #6EAFD2;
+}
+
+.error .contact .github {
+  text-align: center;
+  margin: 1vh 0.4vw;
+  width: 22px;
+  display: inline-block;
+  padding: 1vh 9px 1vh 8px;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.error .contact .github:hover {
+  color: white;
+  background-color: rgb(58, 58, 58);
+}
