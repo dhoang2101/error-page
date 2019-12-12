@@ -247,3 +247,91 @@
   color: white;
   background-color: rgb(58, 58, 58);
 }
+
+@media screen and (max-width: 1024px) {
+  .error .top-title p {
+    font-size: 18vw;
+  }
+
+  .error .middle-title p {
+    font-size: 4vw;
+  }
+
+  .error .bottom-title p {
+    font-size: 3vw;
+  }
+
+  .error .button {
+    padding: 5vh 20vw 2vh 20vw;
+  }
+
+  .error .button .button-left {
+    height: 10%;
+    padding: 1vw 0;
+  }
+
+  .error .button .button-left a {
+    font-size: 2.8vw;
+  }
+
+  .error .button .button-left a .icon {
+    font-size: 2.8vw;
+    padding-right: 0.8vh;
+  }
+
+  .error .button .button-right {
+    height: 10%;
+    padding: 1vw 0;
+  }
+
+  .error .button .button-right a {
+    font-size: 2.8vw;
+  }
+
+  .error .button .button-right a .icon {
+    font-size: 2.8vw;
+    padding-right: 0.8vh;
+  }
+
+  .error .contact .facebook {
+    width: 50px;
+    margin: 1vh 1vw;
+    font-size: 3vw;
+  }
+
+  .error .contact .twitter {
+    width: 50px;
+    margin: 1vh 1vw;
+    font-size: 3vw;
+  }
+
+  .error .contact .in {
+    width: 50px;
+    margin: 1vh 1vw;
+    font-size: 3vw;
+  }
+
+  .error .contact .github {
+    width: 50px;
+    margin: 1vh 1vw;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .error .contact .facebook {
+    width: 22px;
+  }
+
+  .error .contact .twitter {
+    width: 22px;
+  }
+
+  .error .contact .in {
+    width: 22px;
+  }
+
+  .error .contact .github {
+    width: 22px;
+  }
+}
